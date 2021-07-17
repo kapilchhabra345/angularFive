@@ -88,7 +88,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myFirstapp"
+    }
+  },
+  "defaultProject": "myFirstapp",
+  "cli": {
+    "analytics": "ee5e8a31-143b-4d9e-8b04-fe1fd65a8096"
+  }
 }
